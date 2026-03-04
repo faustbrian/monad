@@ -1,0 +1,23 @@
+<?php declare(strict_types=1);
+
+/**
+ * Copyright (C) Brian Faust
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
+
+namespace Cline\Monad\Exceptions;
+
+/**
+ * Thrown when attempting to unwrap an Err value.
+ *
+ * @author Brian Faust <brian@cline.sh>
+ */
+final class CannotUnwrapErrException extends UnwrapException
+{
+    public static function create(string $message = 'Called unwrap() on Err'): self
+    {
+        return new self($message);
+    }
+}
