@@ -1,10 +1,10 @@
 ## Table of Contents
 
-1. [Quick Reference](#doc-docs-quick-reference) (`docs/quick-reference.md`)
-2. [Either](#doc-docs-either) (`docs/either.md`)
-3. [Option](#doc-docs-option) (`docs/option.md`)
-4. [Result](#doc-docs-result) (`docs/result.md`)
-5. [Transpose](#doc-docs-transpose) (`docs/transpose.md`)
+1. [Quick Reference](#doc-docs-quick-reference)
+2. [Either](#doc-docs-either)
+3. [Option](#doc-docs-option)
+4. [Result](#doc-docs-result)
+5. [Transpose](#doc-docs-transpose)
 <a id="doc-docs-quick-reference"></a>
 
 
