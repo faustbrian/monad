@@ -1,10 +1,12 @@
 ## Table of Contents
 
-1. Quick Reference (`docs/quick-reference.md`)
-2. Either (`docs/either.md`)
-3. Option (`docs/option.md`)
-4. Result (`docs/result.md`)
-5. Transpose (`docs/transpose.md`)
+1. [Quick Reference](#doc-docs-quick-reference) (`docs/quick-reference.md`)
+2. [Either](#doc-docs-either) (`docs/either.md`)
+3. [Option](#doc-docs-option) (`docs/option.md`)
+4. [Result](#doc-docs-result) (`docs/result.md`)
+5. [Transpose](#doc-docs-transpose) (`docs/transpose.md`)
+<a id="doc-docs-quick-reference"></a>
+
 
 ## Highlights
 
@@ -25,6 +27,8 @@ Create: `Ok($v)` `Err($e)` | Query: `isOk()` `isErr()` `ok()` `err()` | Unwrap: 
 Create: `left($v)` `right($v)` | Query: `isLeft()` `isRight()` `left()` `right()` | Unwrap: `unwrapLeft()` `unwrapRight()` | Transform: `mapLeft()` `mapRight()` `bimap()` | Match: `match(leftFn, rightFn)`
 
 See individual cookbook guides for comprehensive API documentation.
+
+<a id="doc-docs-either"></a>
 
 ## Overview
 
@@ -945,6 +949,8 @@ abstract class Either
     public function recover(callable $fn): Either;
 }
 ```
+
+<a id="doc-docs-option"></a>
 
 
 ## Overview
@@ -1961,6 +1967,8 @@ abstract class Option
 8. **Fallback chains**: Use orElse for multiple sources
 9. **Combining multiple**: Use combineOptions or manual flatMap chains
 10. **API responses**: Handle missing data gracefully
+
+<a id="doc-docs-result"></a>
 
 
 ## Overview
@@ -3107,6 +3115,8 @@ abstract class Result
 7. **Early returns**: Exit validation chains as soon as exception is encountered
 8. **Exception aggregation**: Collect multiple exceptions for batch processing
 
+<a id="doc-docs-transpose"></a>
+
 
 ## Overview
 
@@ -3554,6 +3564,6 @@ function loadUserWithPreferences(int $userId): Result
 
 ## See Also
 
-- [Option Guide](Option.md) - Core Option operations
-- [Result Guide](Result.md) - Core Result operations
-- [Either Guide](Either.md) - When to use Either vs Result
+- [Option Guide](#) - Core Option operations
+- [Result Guide](#) - Core Result operations
+- [Either Guide](#) - When to use Either vs Result

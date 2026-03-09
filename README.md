@@ -19,11 +19,11 @@ composer require cline/monad
 
 ## Documentation
 
-- **[Option Guide](cookbook/Option.md)** - Complete guide with real-world examples for null-safe operations
-- **[Result Guide](cookbook/Result.md)** - Comprehensive error handling patterns with Ok/Err semantics
-- **[Either Guide](cookbook/Either.md)** - Advanced Left/Right branching for complex scenarios
-- **[Transpose Guide](cookbook/Transpose.md)** - Swapping nested monads (Option<Result> ↔ Result<Option>)
-- **[Quick Reference](cookbook/quick-reference.md)** - API overview and highlights
+- **[Option Guide](DOCS.md)** - Complete guide with real-world examples for null-safe operations
+- **[Result Guide](DOCS.md)** - Comprehensive error handling patterns with Ok/Err semantics
+- **[Either Guide](DOCS.md)** - Advanced Left/Right branching for complex scenarios
+- **[Transpose Guide](DOCS.md)** - Swapping nested monads (Option<Result> ↔ Result<Option>)
+- **[Quick Reference](DOCS.md#doc-docs-quick-reference)** - API overview and highlights
 
 ## Change log
 
